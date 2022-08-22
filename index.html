@@ -13,10 +13,14 @@
 
 <body>
   <div class="backgroundGeral">
-    <div>
-      <img src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" class="product">
+    <div class="image col-6">
+      <picture>
+        <source media="(min-width:800px)" srcset="images/image-product-desktop.jpg">
+        <source media="(min-width:375px)" srcset="images/image-product-mobile.jpg">
+        <img src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" class="product">
+      </picture>     
     </div>
-    <section class="container content">
+    <section class="container content col-6">
       <h1>P E R F U M E</h1>
       <h2>Gabrielle Essence Eau De Parfum</h2>
       <p class="paragraph">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
